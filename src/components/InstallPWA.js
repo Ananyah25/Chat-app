@@ -47,7 +47,7 @@ const InstallPWA = () => {
             </svg>
           </div>
           <div>
-            <h3 className="font-semibold text-black">Install SilentTalk</h3>
+            <h3 className="font-semibold text-black">Install Socialite</h3>
             <p className="text-sm text-black-300">Add to home screen for quick access</p>
           </div>
         </div>

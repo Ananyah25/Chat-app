@@ -6,12 +6,12 @@ import { getMessaging, getToken, onMessage } from 'firebase/messaging';
 
 // Firebase Configuration
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "", // Replace with your actual API Key
+  authDomain: "", // Replace with your actual Auth Domain
+  projectId: "-", // Replace with your actual Project ID
+  storageBucket: "", // Replace with your actual Storage Bucket (usually ends with .appspot.com)
+  messagingSenderId: "", // Replace with your actual Messaging Sender ID
+  appId: "" // Replace with your actual App ID
 };
 
 // Canvas-specific globals and local fallbacks with proper checks

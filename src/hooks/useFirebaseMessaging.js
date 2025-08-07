@@ -3,7 +3,7 @@ import { doc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
 import { messaging, db, appId, getToken, onMessage } from '../firebase/firebaseConfig';
 
 // VAPID key from Firebase Console -> Project settings -> Cloud Messaging
-const VAPID_KEY = '';
+const VAPID_KEY = 'YOUR_VAPID'; 
 
 const useFirebaseMessaging = (userUid, showMessage) => {
   // Request permission and get FCM token
